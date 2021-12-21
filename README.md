@@ -43,3 +43,6 @@
 - fiveYearsProperty: It's related to China restricted purchase of houses policy / 범주형
 - Community average price / 지역 주택 평단가 가격
 
+## 4. 프로젝트 분석 방법 
+
+모델링을 위한 불필요 변수 제거, 데이터에 포함된 한자 제거, 화폐 단위 통일, 데이터의 이상값 제거 등의 전처리를 수행하고 통계분석을 실시하여 특성 변수(독립 변수) 간 상관 관계 분석을 통한 다중 공산성을 확인한다. 이후, 베이스 라인 모델(기준 모델) 설정하여 기준 모델을 통해 프로젝트의 최종 모델을 선정한다. 모델링 과정에서는 랜덤 포레스트, 다중선형회귀모델, 라쏘 회귀모델, 릿지 회귀모델, GradientBoosting 모델, AdaBoost 모델, XGBoost    
